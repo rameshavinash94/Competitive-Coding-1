@@ -2,6 +2,8 @@
 Problem was given from GeeksforGeeks:
 https://www.geeksforgeeks.org/find-the-missing-number-in-a-sorted-array/
 Given a list of n-1 integers and these integers are in the range of 1 to n. There are no duplicates in list. One of the integers is missing in the list. Write an efficient code to find the missing integer. 
+Time Complexity: O(log n)
+Space Complexity: O(1)
 '''
 
 def findMissing(arr, size):
